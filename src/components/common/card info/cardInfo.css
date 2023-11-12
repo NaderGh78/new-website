@@ -1,0 +1,18 @@
+ .card-info {
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: var(--navy_blue);
+     padding: 20px;
+     border-radius: 7px;
+ }
+
+ .card-info svg {
+     font-size: 20px;
+ }
+
+ .card-info a {
+     color: var(--light_blue);
+ }

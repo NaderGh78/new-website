@@ -1,0 +1,104 @@
+.project-details .project-details-content {
+    position: relative;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.project-details .project-details-content a.back-link {
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    background-color: var(--light_blue);
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 31px;
+    border: 1px solid var(--light_blue);
+    border-radius: 4px;
+}
+
+.project-details .project-details-content a.back-link:hover {
+    background-color: transparent;
+}
+
+.project-details .project-details-content h2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 50px auto 0;
+    color: var(--light_blue);
+    text-transform: capitalize;
+}
+
+.project-details .project-details-content .img-box {
+    height: 380px;
+    margin: 15px auto;
+    border: 5px solid var(--light_blue);
+    border-radius: 22px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.project-details .project-details-content .img-box img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top;
+    object-position: top;
+    transition: 4s ease-out;
+}
+
+.project-details .project-details-content .img-box img:hover {
+    -o-object-position: bottom;
+    object-position: bottom;
+}
+
+.project-details .project-details-content .skill-usage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    margin: auto;
+}
+
+.project-details .project-details-content .skill-usage .skill-imgs-box {
+    flex: 8;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    margin: auto;
+}
+
+.project-details .project-details-content .skill-usage .skill-imgs-box img {
+    width: 33px;
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+/*====================================*/
+/*===========Responsive===============*/
+/*====================================*/
+
+@media only screen and (max-width:576px) {
+
+    .project-details .project-details-content {
+        width: 90%;
+    }
+
+    .project-details .project-details-content .skill-usage .skill-imgs-box {
+        gap: 6px
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+
+    .project-details .project-details-content {
+        width: 400px;
+    }
+
+}

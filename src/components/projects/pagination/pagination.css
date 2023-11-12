@@ -1,0 +1,55 @@
+/* style the pagination */
+.projcets-pagination {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.projcets-pagination .page {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 17px;
+    color: #fff;
+    border: 1px solid var(--light_blue);
+    cursor: pointer;
+}
+
+.projcets-pagination .page.previous,
+.projcets-pagination .page.next {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 0 10px;
+    color: #fff;
+    background-color: #222;
+}
+
+.projcets-pagination .page.previous {
+    border-radius: 5px 0 0 5px;
+}
+
+.projcets-pagination .page.next {
+    border-radius: 0 5px 5px 0;
+}
+
+.projcets-pagination .active {
+    background-color: var(--light_blue);
+    color: var(--navy_blue)
+}
+
+.projcets-pagination .next:disabled,
+.projcets-pagination .previous:disabled {
+    background-color: #6c757d;
+    cursor: default;
+}
+
+.projcets-pagination svg {
+    font-size: 11px;
+}

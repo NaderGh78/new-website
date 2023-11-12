@@ -1,0 +1,96 @@
+.footer-section {
+    width: 100%;
+    height: 70px;
+    margin: 70px 0;
+    background-color: var(--light_blue);
+}
+
+.footer-section .copyrights,
+.footer-section .signature {
+    color: var(--navy_blue);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer-section .copyrights,
+.footer-section .signature,
+.footer-section .copyrights,
+.footer-section .signature span {
+    white-space: nowrap;
+}
+
+.footer-section ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.footer-section ul li {
+    width: 32px;
+    height: 32px;
+    background-color: var(--navy_blue);
+    line-height: 27px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.footer-section ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer-section ul li:nth-child(1):hover a {
+    color: #0a66c2;
+}
+
+.footer-section ul li:nth-child(2):hover a {
+    color: #171515;
+}
+
+.footer-section ul li:nth-child(3):hover a {
+    color: #000;
+}
+
+.footer-section ul li:nth-child(4):hover a {
+    color: #25d366;
+}
+
+/*====================================*/
+/*===========Responsive===============*/
+/*====================================*/
+
+@media only screen and (max-width: 576px) {
+
+    .footer-section {
+        height: 90px;
+    }
+
+    .footer-section ul {
+        justify-content: start !important;
+        padding: 0;
+        margin-top: -10px !important;
+        gap: 10px;
+    }
+
+    .footer-section ul li {
+        width: 28px;
+        height: 28px;
+        line-height: 24px;
+    }
+
+    .footer-section ul li a {
+        font-size: 17px;
+    }
+
+    .footer-section .copyrights,
+    .footer-section .signature,
+    .footer-section .copyrights,
+    .footer-section .signature span {
+        white-space: nowrap;
+        font-size: 13px;
+    }
+}

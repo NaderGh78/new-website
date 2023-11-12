@@ -1,0 +1,16 @@
+.heading-title-box {
+    text-align: center;
+}
+
+.heading-title-box p {
+    color: var(--light_gray);
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.heading-title-box h4 {
+    color: var(--light_blue);
+    text-transform: capitalize;
+    font-size: 29px;
+    font-weight: 700;
+}

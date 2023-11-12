@@ -1,0 +1,82 @@
+.main-skills .skill-box {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.main-skills .skill-box .title {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.main-skills .skill-box .skill-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+}
+
+.main-skills .skill-box .skill-per {
+    position: relative;
+    display: block;
+    height: 100%;
+    background-color: var(--light_blue);
+    -webkit-animation: progress 1s ease-out forwards;
+    animation: progress 1s ease-out forwards;
+}
+
+.main-skills .skill-per.css {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+@-webkit-keyframes progress {
+
+    0% {
+        width: 0;
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+@keyframes progress {
+
+    0% {
+        width: 0;
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+.main-skills .skill-per .skill-tooltip {
+    position: absolute;
+    top: -29px;
+    right: -18px;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--navy_blue);
+    padding: 2px 6px;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.main-skills .skill-tooltip::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    width: 13px;
+    height: 13px;
+    background-color: #fff;
+    transform: translateX(-50%) rotate(45deg);
+    z-index: -1;
+}
