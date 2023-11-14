@@ -1,0 +1,307 @@
+[
+   {
+      "id": 1,
+      "projImg": "/assets/images/projects/projects-imgs/comfy.png",
+      "projName": "comfy",
+      "projRubbon": true,
+      "projRubbonTitle": "react js",
+      "projSkillsImgArr": [
+         "/assets/images/projects/skills/html.png",
+         "/assets/images/projects/skills/css.png",
+         "/assets/images/projects/skills/bb.png",
+         "/assets/images/projects/skills/js.png",
+         "/assets/images/projects/skills/react.png"
+      ],
+      "projRoutName": "comfy",
+      "projLive": "https://nadergh78.github.io/comfy-ecommerce/#/",
+      "projGithub": "https://github.com/NaderGh78/comfy-ecommerce",
+      "projFilter": "react js"
+   },
+   {
+      "id": 2,
+      "projImg": "/assets/images/projects/projects-imgs/primocar.png",
+      "projName": "Primo Car",
+      "projRubbon": true,
+      "projRubbonTitle": "php",
+      "projSkillsImgArr": [
+         "/assets/images/projects/skills/html.png",
+         "/assets/images/projects/skills/css.png",
+         "/assets/images/projects/skills/bb.png",
+         "/assets/images/projects/skills/js.png",
+         "/assets/images/projects/skills/jqurey.png",
+         "/assets/images/projects/skills/php.png"
+      ],
+      "projRoutName": "primo-car",
+      "projLive": "https://bp-labs.co/primocar/",
+      "projGithub": "",
+      "projFilter": "php"
+   },
+   {
+      "id": 3,
+      "projImg": "/assets/images/projects/projects-imgs/msl.png",
+      "projName": "msl",
+      "projRubbon": false,
+      "projRubbonTitle": "",
+      "projSkillsImgArr": [
+         "/assets/images/projects/skills/html.png",
+         "/assets/images/projects/skills/css.png",
+         "/assets/images/projects/skills/bb.png",
+         "/assets/images/projects/skills/js.png",
+         "/assets/images/projects/skills/jqurey.png"
+      ],
+      "projRoutName": "msl",
+      "projLive": "https://nadergh78.github.io/MSL/",
+      "projGithub": "https://github.com/NaderGh78/MSL",
+      "projFilter": "html css js"
+   },
+   {
+      "id": 4,
+      "projImg": "/assets/images/projects/projects-imgs/clinic.png",
+      "projName": "MM Clinic",
+      "projRubbon": true,
+      "projRubbonTitle": "react js",
+      "projSkillsImgArr": [
+         "/assets/images/projects/skills/html.png",
+         "/assets/images/projects/skills/css.png",
+         "/assets/images/projects/skills/bb.png",
+         "/assets/images/projects/skills/js.png",
+         "/assets/images/projects/skills/react.png"
+      ],
+      "projRoutName": "MM-Clinic",
+      "projLive": "https://nadergh78.github.io/Dr/",
+      "projGithub": "https://github.com/NaderGh78/Dr",
+      "projFilter": "react js"
+   },
+   {
+      "id": 5,
+      "projImg": "/assets/images/projects/projects-imgs/freelend.png",
+      "projName": "Freelend",
+      "projRubbon": false,
+      "projRubbonTitle": "",
+      "projSkillsImgArr": [
+         "/assets/images/projects/skills/html.png",
+         "/assets/images/projects/skills/css.png",
+         "/assets/images/projects/skills/bb.png",
+         "/assets/images/projects/skills/js.png",
+         "/assets/images/projects/skills/jqurey.png"
+      ],
+      "projRoutName": "freelend",
+      "projLive": "https://nadergh78.github.io/freelend/",
+      "projGithub": "https://github.com/NaderGh78/freelend",
+      "projFilter": "html css js"
+   },
+   {
+      "id": 6,
+      "projImg": "/assets/images/projects/projects-imgs/5noujom.png",
+      "projName": "5njoum",
+      "projRubbon": false,
+      "projRubbonTitle": "",
+      "projSkillsImgArr": [
+         "/assets/images/projects/skills/html.png",
+         "/assets/images/projects/skills/css.png",
+         "/assets/images/projects/skills/bb.png",
+         "/assets/images/projects/skills/js.png",
+         "/assets/images/projects/skills/jqurey.png"
+      ],
+      "projRoutName": "5njoum",
+      "projLive": "https://nadergh78.github.io/5njoum/",
+      "projGithub": "https://github.com/NaderGh78/5njoum",
+      "projFilter": "html css js"
+   },
+   {
+      "id": 7,
+      "projImg": "/assets/images/projects/projects-imgs/primoparts.png",
+      "projName": "Primo parts",
+      "projRubbon": false,
+      "projRubbonTitle": "",
+      "projSkillsImgArr": [
+         "/assets/images/projects/skills/html.png",
+         "/assets/images/projects/skills/css.png",
+         "/assets/images/projects/skills/bb.png",
+         "/assets/images/projects/skills/js.png",
+         "/assets/images/projects/skills/jqurey.png"
+      ],
+      "projRoutName": "primo-parts",
+      "projLive": "https://nadergh78.github.io/Primoparts/",
+      "projGithub": "https://github.com/NaderGh78/Primoparts",
+      "projFilter": "html css js"
+   },
+   {
+      "id": 8,
+      "projImg": "/assets/images/projects/projects-imgs/capetania.png",
+      "projName": "Cafe Capetania",
+      "projRubbon": false,
+      "projRubbonTitle": "",
+      "projSkillsImgArr": [
+         "/assets/images/projects/skills/html.png",
+         "/assets/images/projects/skills/css.png",
+         "/assets/images/projects/skills/bb.png",
+         "/assets/images/projects/skills/js.png",
+         "/assets/images/projects/skills/jqurey.png"
+      ],
+      "projRoutName": "cafe-capetania",
+      "projLive": "https://www.cafecapitania.com/",
+      "projGithub": "",
+      "projFilter": "html css js"
+   },
+   {
+      "id": 9,
+      "projImg": "/assets/images/projects/projects-imgs/msl.png",
+      "projName": "Msl React",
+      "projRubbon": true,
+      "projRubbonTitle": "react js",
+      "projSkillsImgArr": [
+         "/assets/images/projects/skills/html.png",
+         "/assets/images/projects/skills/css.png",
+         "/assets/images/projects/skills/bb.png",
+         "/assets/images/projects/skills/js.png",
+         "/assets/images/projects/skills/react.png"
+      ],
+      "projRoutName": "msl-react",
+      "projLive": "https://nadergh78.github.io/Msl-React-New/",
+      "projGithub": "https://github.com/NaderGh78/Msl-React-New",
+      "projFilter": "react js"
+   },
+   {
+      "id": 10,
+      "projImg": "/assets/images/projects/projects-imgs/primoservice.png",
+      "projName": "Primo Service",
+      "projRubbon": false,
+      "projRubbonTitle": "",
+      "projSkillsImgArr": [
+         "/assets/images/projects/skills/html.png",
+         "/assets/images/projects/skills/css.png",
+         "/assets/images/projects/skills/bb.png",
+         "/assets/images/projects/skills/js.png",
+         "/assets/images/projects/skills/jqurey.png"
+      ],
+      "projRoutName": "primo-service",
+      "projLive": "https://nadergh78.github.io/primoservice/",
+      "projGithub": "https://github.com/NaderGh78/primoservice",
+      "projFilter": "html css js"
+   },
+   {
+      "id": 11,
+      "projImg": "/assets/images/projects/projects-imgs/blog.png",
+      "projName": "Simple Blog",
+      "projRubbon": true,
+      "projRubbonTitle": "react js",
+      "projSkillsImgArr": [
+         "/assets/images/projects/skills/html.png",
+         "/assets/images/projects/skills/css.png",
+         "/assets/images/projects/skills/bb.png",
+         "/assets/images/projects/skills/js.png",
+         "/assets/images/projects/skills/react.png"
+      ],
+      "projRoutName": "simple-blog",
+      "projLive": "https://nadergh78.github.io/simple-blog/",
+      "projGithub": "https://github.com/NaderGh78/simple-blog",
+      "projFilter": "others"
+   },
+   {
+      "id": 12,
+      "projImg": "/assets/images/projects/projects-imgs/primoweb.png",
+      "projName": "Primo Web",
+      "projRubbon": false,
+      "projRubbonTitle": "",
+      "projSkillsImgArr": [
+         "/assets/images/projects/skills/html.png",
+         "/assets/images/projects/skills/css.png",
+         "/assets/images/projects/skills/bb.png",
+         "/assets/images/projects/skills/js.png",
+         "/assets/images/projects/skills/jqurey.png"
+      ],
+      "projRoutName": "primo-web",
+      "projLive": "https://nadergh78.github.io/primoweb/",
+      "projGithub": "https://github.com/NaderGh78/primoweb",
+      "projFilter": "html css js"
+   },
+   {
+      "id": 13,
+      "projImg": "/assets/images/projects/projects-imgs/worldpres.png",
+      "projName": "world presentation",
+      "projRubbon": false,
+      "projRubbonTitle": "",
+      "projSkillsImgArr": [
+         "/assets/images/projects/skills/html.png",
+         "/assets/images/projects/skills/css.png",
+         "/assets/images/projects/skills/bb.png",
+         "/assets/images/projects/skills/js.png",
+         "/assets/images/projects/skills/jqurey.png"
+      ],
+      "projRoutName": "world-presentation",
+      "projLive": "https://nadergh78.github.io/world-presentation/",
+      "projGithub": "https://github.com/NaderGh78/world-presentation",
+      "projFilter": "html css js"
+   },
+   {
+      "id": 14,
+      "projImg": "/assets/images/projects/projects-imgs/social.png",
+      "projName": "Simple Social Media",
+      "projRubbon": true,
+      "projRubbonTitle": "react js",
+      "projSkillsImgArr": [
+         "/assets/images/projects/skills/html.png",
+         "/assets/images/projects/skills/css.png",
+         "/assets/images/projects/skills/bb.png",
+         "/assets/images/projects/skills/js.png",
+         "/assets/images/projects/skills/react.png"
+      ],
+      "projRoutName": "simple-social-media",
+      "projLive": "https://nadergh78.github.io/social-media/#/",
+      "projGithub": "https://github.com/NaderGh78/social-media",
+      "projFilter": "others"
+   },
+   {
+      "id": 15,
+      "projImg": "/assets/images/projects/projects-imgs/codepen.png",
+      "projName": "My Codepen",
+      "projRubbon": true,
+      "projRubbonTitle": "others",
+      "projSkillsImgArr": [
+         "/assets/images/projects/skills/html.png",
+         "/assets/images/projects/skills/css.png",
+         "/assets/images/projects/skills/js.png"
+      ],
+      "projRoutName": "my-codepen",
+      "projLive": "https://codepen.io/matrix78/pens/public",
+      "projGithub": "",
+      "projFilter": "others"
+   },
+   {
+      "id": 16,
+      "projImg": "/assets/images/projects/projects-imgs/newCv.png",
+      "projName": "My Cv",
+      "projRubbon": true,
+      "projRubbonTitle": "react js",
+      "projSkillsImgArr": [
+         "/assets/images/projects/skills/html.png",
+         "/assets/images/projects/skills/css.png",
+         "/assets/images/projects/skills/bb.png",
+         "/assets/images/projects/skills/js.png",
+         "/assets/images/projects/skills/react.png"
+      ],
+      "projRoutName": "my-cv",
+      "projLive": "https://nadergh78.github.io/new-website/",
+      "projGithub": "https://github.com/NaderGh78/new-website",
+      "projFilter": "react js"
+   },
+   {
+      "id": 17,
+      "projImg": "/assets/images/projects/projects-imgs/oldCv.png",
+      "projName": "My First Cv",
+      "projRubbon": false,
+      "projRubbonTitle": "",
+      "projSkillsImgArr": [
+         "/assets/images/projects/skills/html.png",
+         "/assets/images/projects/skills/css.png",
+         "/assets/images/projects/skills/bb.png",
+         "/assets/images/projects/skills/js.png",
+         "/assets/images/projects/skills/jqurey.png"
+      ],
+      "projRoutName": "my-first-cv",
+      "projLive": "https://nadergh78.github.io/myWebsite/",
+      "projGithub": "https://github.com/NaderGh78/myWebsite",
+      "projFilter": "html css js"
+   }
+]
