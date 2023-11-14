@@ -5,11 +5,10 @@
     margin-bottom: 20px;
     background-color: var(--navy_blue);
     border-radius: 22px;
-    /* transition: all .4s ease-in-out; */
-    /* animation: display .5s ease-in-out forwards; */
 }
 
-.add-animation {
+/* here we edit the style [zoomIn] class that inside [wow libray]*/
+.zoomIn {
     -webkit-animation: display .5s ease-in-out forwards;
     animation: display .5s ease-in-out forwards;
 }

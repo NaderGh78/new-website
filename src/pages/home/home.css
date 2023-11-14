@@ -15,11 +15,17 @@
     font-size: 20px;
 }
 
-.home .info-typing {
-    display: inline-block;
+.home .typing-elements {
     height: 70px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.home .typing-elements .info-typing {
     font-size: 55px;
-    line-height: 70px;
 }
 
 .home .typed-cursor {
@@ -99,11 +105,17 @@
 
 @media only screen and (max-width: 576px) {
 
-    .home .info-typing {
-        margin-top: 20px;
-        font-size: 7vw;
+    .home span.welcome-typing {
+        font-size: 15px;
+    }
+
+    .home .typing-elements {
+        margin: 0;
         height: auto;
-        line-height: 10px
+    }
+
+    .home .typing-elements .info-typing {
+        font-size: 7vw;
     }
 
     .home .typed-cursor {

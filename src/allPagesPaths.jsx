@@ -4,7 +4,7 @@ export { cardInfoData } from "../src/data/cardInfoData";
 export { footerData } from "../src/data/footerData";
 export { contactCardInfo } from "../src/data/contactCardInfo";
 export { linksData } from "../src/data/linksData";
-export { projectsData } from "../src/data/projectsData";
+//export { projectsData } from "../src/data/projectsData";
 export { skillsData } from "../src/data/skillsData";
 export { default as BottomNav } from "../src/components/common/bottom nav/BottomNav";
 export { default as TransitionPage } from "../src/components/common/TransitionPage";
@@ -14,6 +14,7 @@ export { default as CardInfo } from "../src/components/common/card info/CardInfo
 export { default as ContactForm } from "../src/components/contact/ContactForm";
 export { default as MainSkills } from "../src/components/experience/main skills/MainSkills";
 export { default as Education } from "../src/components/experience/education/Education";
+export { default as Spinner } from "../src/components/common/spinner/Spinner";
 
 /*=======================================================*/
 

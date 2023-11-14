@@ -6,9 +6,9 @@ import {
   Pagination,
   SelectBox,
   SingleProjCard,
-  projectsData
+  Spinner
 } from "../../allPagesPaths";
-import { useLocation, useParams } from "react-router-dom";
+import axios from 'axios';
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -16,120 +16,129 @@ import { useLocation, useParams } from "react-router-dom";
 
 const Projects = () => {
 
-  const itemsEls = useRef(new Array());
-
   GetTitlePage('Nader Ghanawi | Projects');
 
-  let finalFilter = [];
+  const [cardData, setCardData] = useState([]);
+
+  const [error, setError] = useState(false);
+
+  const [loading, setLoading] = useState(true);
 
   // select option value,by default is all
   const [optionValue, setOptionValue] = useState('all');
 
-  // get all UNIQUE projFilter from projectsData arr
-  const projectMadeBy = [...new Set(projectsData.map(item => item.projFilter))];
+  const [finalFilter, setFinalFilter] = useState([]);
 
-  // projectMadeBy.unshift("all")  
+  useEffect(() => {
+
+    axios.get("./projectsData.json")
+      .then(res => {
+
+        setCardData(res.data);
+
+        setFinalFilter(res.data);
+
+        setLoading(false);
+
+      })
+      .catch(err => setError(true))
+
+  }, []);
+
+  // get all UNIQUE projFilter from json file in order to put the [name and value] inside option tag daynamic
+  const projectMadeBy = [...new Set(cardData?.map(item => item.projFilter))];
 
   // when we select an option
   const handleChange = (e) => {
 
     setOptionValue(e.target.value);
 
-  }
+    // if the option value equal all , show all finalfilter,otherwise filter the [finalfilter] based on the option value
+    if (e.target.value === "all") {
 
-  // after select an option from the select , compare the value if matching with the projFilter
-  const filterdProjArr = projectsData.filter(el => el.projFilter === optionValue);
+      setFinalFilter(cardData);
 
-  if (optionValue === "all") {
+    } else {
 
-    finalFilter = [...projectsData];
+      setFinalFilter(cardData?.filter(el => el.projFilter === e.target.value));
 
-  } else {
-
-    finalFilter = [...filterdProjArr];
+    }
 
   }
 
-  /*+++++++++++++++++++++ PAGINATION START +++++++++++++++++++++++++++*/
+  /* 
 
-  const [currentPage, setCurrentPage] = useState(1);
+  // this is for load more ??????
+    const projectPerRow = 4; 
+     
+    const [visible, setVisible] = useState(projectPerRow);
+  
+    const [isCompleted, setIsCompleted] = useState(false);  
+  
+    const showMoreItems = () => {
+  
+      setVisible((prevValue) => prevValue + projectPerRow);
+  
+      if (visible >= cardData.length - 1) {
+  
+        setIsCompleted(true);
+  
+      } else {
+  
+        setIsCompleted(false);
+  
+      }
+      
+    }   
+  
+  */
 
-  const [activePagination, setActivePagination] = useState(1);
-
-  const PROJECT_PER_PAGE = 8;
-
-  const pages = Math.ceil(finalFilter?.length / PROJECT_PER_PAGE);
-
-  const startIndex = (currentPage - 1) * PROJECT_PER_PAGE;
-
-  const finishIndex = currentPage * PROJECT_PER_PAGE;
-
-  const orderedProducts = finalFilter?.slice(startIndex, finishIndex);
-
+  // this is the final map finalfilter in order to draw ui
   const renderedProjects = finalFilter?.map((d, i) => {
     return (
-      <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6" key={i} ref={(element) => itemsEls.current.push(element)}><SingleProjCard data={d} /></div>
+      <div
+        className="col-xxl-3 col-xl-4 col-lg-4 col-md-6"
+        key={i}
+      >
+        <SingleProjCard
+          data={d}
+          loading={loading}
+          optionValue={optionValue}
+        />
+      </div>
     );
   });
 
-  // useEffect(()=>{
-  //   window.scrollTo(0, 0);
-  // },[currentPage]) 
-
-  // run the animation for every single projcet card , depend when change the filter option
-  useEffect(() => {
-
-    let timer;
-
-    const childall = Array.from(document.querySelectorAll(".single-proj-card"));
-
-    for (let x in childall) {
-
-      //childall[x].classList.add('add-animation');
-
-      timer = setTimeout(() => {
-
-        childall[x].classList.remove('add-animation');
-
-        setTimeout(() => {
-
-          childall[x].classList.add('add-animation');
-
-        }, 5)
-
-      }, 5);
-    }
-
-    return () => clearTimeout(timer);
-
-  }, [optionValue])
-
-  /*+++++++++++++++++++++ PAGINATION END +++++++++++++++++++++++++++*/
+  /*=================================*/
 
   return (
     <main>
       <div className="projects">
         <HeadingTitle sub='My Works' head='Portfolio' />
-        <div className="projects-content">
-          <SelectBox
-            projectMadeBy={projectMadeBy}
-            optionValue={optionValue}
-            setOptionValue={setOptionValue}
-            handleChange={handleChange}
-          />
-          <div className="container p-0">
-            <div className="row">
-              {renderedProjects}
-              {/* <Pagination
-                pages={pages}
-                currentPage={currentPage}
-                setCurrentPage={setCurrentPage}
-                activePagination={activePagination}
-                setActivePagination={setActivePagination}
-              /> */}
-            </div>
-          </div>
-        </div>
+        {
+          !error
+            ?
+            <>
+              <div className="projects-content">
+                <SelectBox
+                  projectMadeBy={projectMadeBy}
+                  optionValue={optionValue}
+                  setOptionValue={setOptionValue}
+                  handleChange={handleChange}
+                />
+                <div className="container p-0">
+                  <div className="row">
+                    {loading && <Spinner />}
+                    {renderedProjects}
+                    {/* {!isCompleted && <button onClick={showMoreItems}>Load More</button>} */}
+                    {/* <button onClick={showMoreItems}>Load More</button> */}
+                  </div>
+                </div>
+              </div>
+            </>
+            :
+            <h2 className="text-center text-white">Network Error !</h2>
+        }
       </div>
     </main>
   )

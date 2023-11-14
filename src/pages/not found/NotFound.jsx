@@ -1,7 +1,6 @@
 import "./notFound.css";
 import { Link } from "react-router-dom";
 import { GetTitlePage } from "../../allPagesPaths";
-import notFoundImg from "../../assets/images/404.png";
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -15,7 +14,7 @@ const NotFound = () => {
     <div className="not-found">
       <div className="not-found-content">
         <div className="img-box">
-          <img src={notFoundImg} alt="404" />
+          <img src={process.env.PUBLIC_URL + '/assets/images/404.png'} alt="404" />
         </div>
         <h4 className="text-white">404 page not found!</h4>
         <p style={{ color: "var(--light_gray)" }}>Check to see if the link you are trying to open is valid.</p>

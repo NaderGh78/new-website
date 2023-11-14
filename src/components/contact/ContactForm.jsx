@@ -1,5 +1,4 @@
 import "./contactForm.css";
-import loader from "../../assets/images/loading-gif.gif";
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -75,7 +74,7 @@ const ContactForm = (props) => {
                 >
                 </textarea>
                 <label htmlFor="msg">Your Message</label>
-                {isFormSubmit ? <img src={loader} alt="loader" /> : ""}
+                {isFormSubmit ? <img src={process.env.PUBLIC_URL + '/assets/images/loading-gif.gif'} alt="loader" /> : ""}
             </div>
 
             <button className="fill-btn">

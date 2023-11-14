@@ -25,7 +25,7 @@
 
 .project-details .project-details-content h2 {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
     margin: 50px auto 0;
     color: var(--light_blue);
@@ -74,7 +74,7 @@
 }
 
 .project-details .project-details-content .skill-usage .skill-imgs-box img {
-    width: 33px;
+    width: 25px;
     height: auto;
     -o-object-fit: cover;
     object-fit: cover;

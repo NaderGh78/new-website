@@ -39,7 +39,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  background-image: url(../src/assets/images/bg-texture.png);
+  background-image: url("../public/assets/images/bg-texture.png");
   background-color: var(--main_bg) !important;
   min-height: 100vh;
 }

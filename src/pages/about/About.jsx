@@ -2,7 +2,6 @@ import "./about.css";
 import { Link } from "react-router-dom";
 import { cardInfoData } from "../../data/cardInfoData";
 import { CardInfo, GetTitlePage, HeadingTitle } from "../../allPagesPaths";
-import myImg from "../../assets/images/personal_img.png";
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -19,7 +18,7 @@ const About = () => {
         <div className="about-content d-flex">
           <div className="left">
             <div className="about-content-img">
-              <img src={myImg} alt="my-img" />
+              <img src={process.env.PUBLIC_URL + '/assets/images/personal_img.png'} alt="my-img" />
             </div>
           </div>
           <div className="right">

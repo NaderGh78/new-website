@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { FaLinkedin, FaCodepen, FaGithub } from "react-icons/fa6";
 import Typed from "typed.js";
 import { GetTitlePage } from "../../allPagesPaths";
-import Resume from "../../assets/Nader Resume.pdf";
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -53,7 +52,9 @@ const Home = () => {
     <main>
       <div className="home">
         <span ref={el} className="welcome-typing"></span>
-        <div ref={el2} className="info-typing"></div>
+        <div className="typing-elements">
+          <div ref={el2} className="info-typing"></div>
+        </div>
         <div className="social-links">
           <a href="https://www.linkedin.com/in/nader-ghanawi-4312451a4/" target="_blank"><FaLinkedin /></a>
           <a href="https://github.com/NaderGh78" target="_blank"><FaGithub /></a>
@@ -61,7 +62,7 @@ const Home = () => {
         </div>
         <div className="btn-box">
           <Link to="/contact" className="fill-btn">Let's Talk!</Link>
-          <a href={Resume} target="_blank" className="borderd-btn">Download Resume</a>
+          <a href={process.env.PUBLIC_URL + '/assets/Nader Resume.pdf'} target="_blank" className="borderd-btn">Download Resume</a>
         </div>
       </div>
     </main>
