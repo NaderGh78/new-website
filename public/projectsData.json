@@ -1,6 +1,24 @@
 [
    {
       "id": 1,
+      "projImg": "/assets/images/projects/projects-imgs/mern.png",
+      "projName": "mern blog",
+      "projRubbon": true,
+      "projRubbonTitle": "mern stack",
+      "projSkillsImgArr": [
+         "/assets/images/projects/skills/mongodb.png",
+         "/assets/images/projects/skills/express.png",
+         "/assets/images/projects/skills/react.png",
+         "/assets/images/projects/skills/node.png",
+         "/assets/images/projects/skills/redux.png"
+      ],
+      "projRoutName": "mern",
+      "projLive": "https://my-first-mern-blog.vercel.app",
+      "projGithub": "https://github.com/NaderGh78/my-first-mern-blog",
+      "projFilter": "mern stack"
+   },
+   {
+      "id": 2,
       "projImg": "/assets/images/projects/projects-imgs/comfy.png",
       "projName": "comfy",
       "projRubbon": true,
@@ -18,7 +36,7 @@
       "projFilter": "react js"
    },
    {
-      "id": 2,
+      "id": 3,
       "projImg": "/assets/images/projects/projects-imgs/primocar.png",
       "projName": "Primo Car",
       "projRubbon": true,
@@ -37,7 +55,7 @@
       "projFilter": "php"
    },
    {
-      "id": 3,
+      "id": 4,
       "projImg": "/assets/images/projects/projects-imgs/msl.png",
       "projName": "msl",
       "projRubbon": false,
@@ -55,7 +73,7 @@
       "projFilter": "html css js"
    },
    {
-      "id": 4,
+      "id": 5,
       "projImg": "/assets/images/projects/projects-imgs/clinic.png",
       "projName": "MM Clinic",
       "projRubbon": true,
@@ -73,7 +91,7 @@
       "projFilter": "react js"
    },
    {
-      "id": 5,
+      "id": 6,
       "projImg": "/assets/images/projects/projects-imgs/freelend.png",
       "projName": "Freelend",
       "projRubbon": false,
@@ -91,7 +109,7 @@
       "projFilter": "html css js"
    },
    {
-      "id": 6,
+      "id": 7,
       "projImg": "/assets/images/projects/projects-imgs/5noujom.png",
       "projName": "5njoum",
       "projRubbon": false,
@@ -109,7 +127,7 @@
       "projFilter": "html css js"
    },
    {
-      "id": 7,
+      "id": 8,
       "projImg": "/assets/images/projects/projects-imgs/primoparts.png",
       "projName": "Primo parts",
       "projRubbon": false,
@@ -127,7 +145,7 @@
       "projFilter": "html css js"
    },
    {
-      "id": 8,
+      "id": 9,
       "projImg": "/assets/images/projects/projects-imgs/capetania.png",
       "projName": "Cafe Capetania",
       "projRubbon": false,
@@ -145,7 +163,7 @@
       "projFilter": "html css js"
    },
    {
-      "id": 9,
+      "id": 10,
       "projImg": "/assets/images/projects/projects-imgs/msl.png",
       "projName": "Msl React",
       "projRubbon": true,
@@ -163,7 +181,7 @@
       "projFilter": "react js"
    },
    {
-      "id": 10,
+      "id": 11,
       "projImg": "/assets/images/projects/projects-imgs/primoservice.png",
       "projName": "Primo Service",
       "projRubbon": false,
@@ -181,7 +199,7 @@
       "projFilter": "html css js"
    },
    {
-      "id": 11,
+      "id": 12,
       "projImg": "/assets/images/projects/projects-imgs/blog.png",
       "projName": "Simple Blog",
       "projRubbon": true,
@@ -199,7 +217,7 @@
       "projFilter": "others"
    },
    {
-      "id": 12,
+      "id": 13,
       "projImg": "/assets/images/projects/projects-imgs/primoweb.png",
       "projName": "Primo Web",
       "projRubbon": false,
@@ -217,7 +235,7 @@
       "projFilter": "html css js"
    },
    {
-      "id": 13,
+      "id": 14,
       "projImg": "/assets/images/projects/projects-imgs/worldpres.png",
       "projName": "world presentation",
       "projRubbon": false,
@@ -235,7 +253,7 @@
       "projFilter": "html css js"
    },
    {
-      "id": 14,
+      "id": 15,
       "projImg": "/assets/images/projects/projects-imgs/social.png",
       "projName": "Simple Social Media",
       "projRubbon": true,
@@ -253,7 +271,7 @@
       "projFilter": "others"
    },
    {
-      "id": 15,
+      "id": 16,
       "projImg": "/assets/images/projects/projects-imgs/codepen.png",
       "projName": "My Codepen",
       "projRubbon": true,
@@ -269,7 +287,7 @@
       "projFilter": "others"
    },
    {
-      "id": 16,
+      "id": 17,
       "projImg": "/assets/images/projects/projects-imgs/newCv.png",
       "projName": "My Cv",
       "projRubbon": true,
@@ -287,7 +305,7 @@
       "projFilter": "react js"
    },
    {
-      "id": 17,
+      "id": 18,
       "projImg": "/assets/images/projects/projects-imgs/oldCv.png",
       "projName": "My First Cv",
       "projRubbon": false,

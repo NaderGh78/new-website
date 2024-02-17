@@ -27,7 +27,7 @@ export const skillsData = [
     {
         id: 6,
         skillTitle: "React js",
-        skillNumber: "23"
+        skillNumber: "40"
     },
     {
         id: 7,
